@@ -1,0 +1,84 @@
+.seating {
+    text-align: center;
+    margin-top: 20px;
+    font: 'Book Antiqua',serif;
+  }
+  
+  .seat-row {
+    margin-bottom: 10px;
+  }
+  
+  .seat-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50px;
+    height: 50px; 
+  }
+  
+  button.available {
+    background-color: lightgray;
+  }
+  
+  button.booked {
+    background-color: gray;
+    pointer-events: none; 
+    cursor: not-allowed; 
+  }
+  
+  button:hover {
+    background-color: darkgray;
+  }
+  
+  .seat-row > button:nth-child(15n+1) {
+    margin-right: 10px;
+  }
+  
+  .screen{
+    margin-bottom: 20px;
+  }
+  .ticket-cost{
+    padding-left: 1000px;
+    padding-bottom: 20px;
+  }
+  .Movie-name p{
+    font: 'Book Antiqua',serif;
+    font-size: 18px;
+    color: #333;
+  }
+  .instructions {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .instructions button {
+    margin-right: 100px; 
+  }
+  
+  .instructions button p {
+    padding-left: 60px;
+    margin: 0; 
+  }
+  
+  .available_inst {
+    background-color: lightgray; 
+    pointer-events: none; 
+    cursor: not-allowed; 
+  }
+  
+  .booked_inst {
+    background-color: gray; 
+    pointer-events: none; 
+    cursor: not-allowed; 
+  }
