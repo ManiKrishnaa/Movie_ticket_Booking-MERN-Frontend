@@ -13,7 +13,7 @@ const moment = require("moment");
 
 const secretKey = "Movie_booking00124123124";
 
-mongoose.connect('mongodb://localhost:27017/moviebooking')
+mongoose.connect('mongodb+srv://manikrishna9970:manikrishna9970@nani.8rxselx.mongodb.net/?retryWrites=true&w=majority&appName=nani')
 .then(()=>{
     console.log("mongodb connected !");
 })
