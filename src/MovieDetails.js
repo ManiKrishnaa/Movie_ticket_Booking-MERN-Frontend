@@ -14,7 +14,7 @@ function MovieDetails() {
     const fetchMovieDetails = async () => {
       console.log(`Fetching movie details for id: ${id}`);
       try {
-        const response = await axios.get(`https://movie-ticket-booking-mern-backend-d16m28nn2.vercel.app/moviess/${id}`);
+        const response = await axios.get(`https://movie-ticket-booking-mern-backend-fv7n1edyd.vercel.app/moviess/${id}`);
         console.log('Response data:', response.data);
         if (response.data.movie) {
           setMovieDetails(response.data.movie);
