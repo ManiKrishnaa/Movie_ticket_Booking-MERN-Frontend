@@ -41,7 +41,7 @@ function Seating({ seatingDataString }) {
       const email = userdata.email;
   
       try {
-        const response = await axios.post('https://movie-ticket-booking-mern-backend-d16m28nn2.vercel.app/movies/seating/booking', {
+        const response = await axios.post('https://movie-ticket-booking-mern-backend-fv7n1edyd.vercel.app/movies/seating/booking', {
             seatNumber: seatNumber,
             movieName: seatingData.movieName,
             showtime: showtime,
