@@ -20,7 +20,7 @@ function Signup() {
       return;
     }
     try {
-      const response = await fetch('https://movie-ticket-booking-mern-backend-d4l9-4n3hfsha6.vercel.app/signup', {
+      const response = await fetch('https://movie-ticket-booking-mern-backend-d16m28nn2.vercel.app/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
