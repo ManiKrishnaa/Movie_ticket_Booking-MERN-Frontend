@@ -17,7 +17,7 @@ function Navbar({ isLoggedIn, handleLogout }) {
 
   const fetchLocations = async () => {
     try {
-      const response = await axios.get('https://movie-ticket-booking-mern-backend-d16m28nn2.vercel.app/cities');
+      const response = await axios.get('https://movie-ticket-booking-mern-backend-fv7n1edyd.vercel.app/cities');
       setLocations(response.data.cities);
     } catch (error) {
       console.error('Error fetching locations:', error);
