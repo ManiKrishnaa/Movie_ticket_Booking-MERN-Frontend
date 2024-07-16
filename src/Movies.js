@@ -9,7 +9,7 @@ function Movies({ selectedcity }) {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/movies/${selectedcity}`);
+        const response = await axios.get(`https://movie-ticket-booking-mern-backend-d4l9-4n3hfsha6.vercel.app/movies/${selectedcity}`);
         setMovies(response.data.movies);
       } catch (error) {
         console.error('Error fetching movies:', error);
