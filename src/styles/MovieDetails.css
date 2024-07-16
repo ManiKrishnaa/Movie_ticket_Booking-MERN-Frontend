@@ -1,0 +1,65 @@
+.movie-details {
+    font-family: 'Book Antiqua',serif;
+    padding: 20px;
+  }
+  
+  .movie-summary {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .movie-poster {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .movie-info p {
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid gray;
+  }
+  .theaters {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .theater {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-style: solid;
+    padding: 10px;
+  }
+  
+  .theater-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .showtimes-container {
+    display: flex;
+  }
+  
+  .showtime-box {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .showtime {
+    font-weight: bold;
+  }
+  
