@@ -11,7 +11,7 @@ function SignIn({handleLogin}) {
         e.preventDefault();
         
         try {
-            const response = await fetch('https://movie-ticket-booking-mern-backend-fv7n1edyd.vercel.app/signin', {
+            const response = await fetch('https://movie-ticket-booking-mern-backend-rizjldro8.vercel.app/signin', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
